@@ -11,13 +11,16 @@ html, body {
 }
 
 //NAVBAR
-.navbar{
+.navbar {
+    position: sticky;
+    top: 10px;
     background-color: #EBD8D8;
     color: #25134D;
     display: flex;
     justify-content: space-between;
     border-radius: 25px;
     height: 75px;
+    z-index: 100; // Ensure the navbar stays above other elements
 }
 
 .logo{
@@ -50,7 +53,7 @@ html, body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 80vh;
+    height: 100vh;
     line-height:normal;
 
     .about {
