@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './views/home/home.component';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { ExperienceComponent } from './views/experience/experience.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,
