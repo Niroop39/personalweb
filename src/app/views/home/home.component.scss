@@ -1,0 +1,53 @@
+/* Define styles for the entire navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+/* Define styles for the logo */
+.logo {
+    h2 {
+        margin: 0;
+        font-size: 1.5em;
+        color: #333;
+    }
+}
+
+/* Define styles for the navigation content */
+.navcontent {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+
+        li {
+            margin-right: 20px;
+
+            // Define styles for the links
+            a {
+                text-decoration: none;
+                color: #333;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+/* Define styles for the Resume button */
+#resume-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #45a049;
+    }
+}
